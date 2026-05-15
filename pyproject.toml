@@ -12,6 +12,7 @@ license = {text = "Unlicense"}
 dependencies = [
     "networkx",
     "matplotlib",
+    "numpy>=2.2.6",
 ]
 
 [project.scripts]
