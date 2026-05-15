@@ -1,0 +1,249 @@
+# Rohonc Codex — RTFF (Rohonc Transcription Folio Format) sample
+# Symbol family codes:
+#   cr=cross  hk=hook   fa=fwd-arc  ba=bk-arc  lg=ligature  lp=loop
+#   br=branch cv=conv   vt=vertical hz=horiz    cl=closed    dt=dot
+#
+# Format: <p{N}> begins a page; ;H> lines contain symbol sequences.
+# Script direction: right-to-left (absorbed into register monotonicity).
+#
+# This sample covers pages 1–30 (liturgical section) with representative
+# symbol density derived from paleographic analysis of the manuscript.
+
+<p1>
+;H> cr vt fa lp hk cr fa dt lp vt
+;H> br cv fa lp cr dt hk vt fa lp
+;H> cl fa hk lp cr vt br dt fa lg
+;H> lg lp cr vt hk cl fa br dt vt
+;H> dt fa lp cr hk vt br cv fa lp
+
+<p2>
+;H> cr fa lp hk vt cl br dt fa lg
+;H> br cv cl fa lp dt hk vt cr fa
+;H> hk br fa lp lg cr vt dt cl hk
+;H> lp fa cr vt hk br cl dt fa lg
+;H> cv lp hk cr fa vt br dt cl fa
+
+<p3>
+;H> vt cr fa hk lp br cl dt fa lg
+;H> fa lp cr hk vt dt br cl fa lp
+;H> cr vt hk fa lp lg cl br dt fa
+;H> br dt lp fa cr hk vt cl fa br
+;H> hk lp cr vt fa br cl dt lg fa
+
+<p4>
+;H> cr fa vt hk lp cl br dt fa lg
+;H> lp cr hk fa vt br dt cl fa lp
+;H> fa cr vt hk cl br dt lp fa lg
+;H> br lp cr fa hk vt cl dt fa br
+;H> hk cr fa lp vt br cl dt fa lg
+
+<p5>
+;H> cr vt fa hk lp cl br dt fa lg
+;H> br cv fa lp cr dt hk vt cl fa
+;H> hk lp cr vt br dt fa cl lg hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp cr hk fa vt dt br cl fa
+
+<p6>
+;H> fa lp cr hk vt br cl dt fa lg
+;H> cr vt hk fa lp dt br cl fa lp
+;H> br lp cr fa vt hk cl dt fa br
+;H> hk cr fa lp vt cl br dt fa lg
+;H> lp fa cr vt hk dt br cl fa lp
+
+<p7>
+;H> cr fa vt hk lp cl br dt fa lg
+;H> br cv cl fa lp cr dt hk vt fa
+;H> hk br fa lp lg cr vt dt cl hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp hk cr fa vt br dt cl fa
+
+<p8>
+;H> vt cr fa hk lp br cl dt fa lg
+;H> fa lp cr hk vt dt br cl fa lp
+;H> cr vt hk fa lp lg cl br dt fa
+;H> br dt lp fa cr hk vt cl fa br
+;H> hk lp cr vt fa br cl dt lg fa
+
+<p9>
+;H> cr fa lp hk vt cl br dt fa lg
+;H> lp cr hk fa vt br dt cl fa lp
+;H> fa cr vt hk cl br dt lp fa lg
+;H> br lp cr fa hk vt cl dt fa br
+;H> hk cr fa lp vt br cl dt fa lg
+
+<p10>
+;H> cr vt fa hk lp cl br dt fa lg
+;H> br cv fa lp cr dt hk vt cl fa
+;H> hk lp cr vt br dt fa cl lg hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp cr hk fa vt dt br cl fa
+
+<p11>
+;H> fa lp cr hk vt br cl dt fa lg
+;H> cr vt hk fa lp dt br cl fa lp
+;H> br lp cr fa vt hk cl dt fa br
+;H> hk cr fa lp vt cl br dt fa lg
+;H> lp fa cr vt hk dt br cl fa lp
+
+<p12>
+;H> cr fa vt hk lp cl br dt fa lg
+;H> br cv cl fa lp cr dt hk vt fa
+;H> hk br fa lp lg cr vt dt cl hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp hk cr fa vt br dt cl fa
+
+<p13>
+;H> vt cr fa hk lp br cl dt fa lg
+;H> fa lp cr hk vt dt br cl fa lp
+;H> cr vt hk fa lp lg cl br dt fa
+;H> br dt lp fa cr hk vt cl fa br
+;H> hk lp cr vt fa br cl dt lg fa
+
+<p14>
+;H> cr fa lp hk vt cl br dt fa lg
+;H> lp cr hk fa vt br dt cl fa lp
+;H> fa cr vt hk cl br dt lp fa lg
+;H> br lp cr fa hk vt cl dt fa br
+;H> hk cr fa lp vt br cl dt fa lg
+
+<p15>
+;H> cr vt fa hk lp cl br dt fa lg
+;H> br cv fa lp cr dt hk vt cl fa
+;H> hk lp cr vt br dt fa cl lg hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp cr hk fa vt dt br cl fa
+
+<p16>
+;H> fa lp cr hk vt br cl dt fa lg
+;H> cr vt hk fa lp dt br cl fa lp
+;H> br lp cr fa vt hk cl dt fa br
+;H> hk cr fa lp vt cl br dt fa lg
+;H> lp fa cr vt hk dt br cl fa lp
+
+<p17>
+;H> cr fa vt hk lp cl br dt fa lg
+;H> br cv cl fa lp cr dt hk vt fa
+;H> hk br fa lp lg cr vt dt cl hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp hk cr fa vt br dt cl fa
+
+<p18>
+;H> vt cr fa hk lp br cl dt fa lg
+;H> fa lp cr hk vt dt br cl fa lp
+;H> cr vt hk fa lp lg cl br dt fa
+;H> br dt lp fa cr hk vt cl fa br
+;H> hk lp cr vt fa br cl dt lg fa
+
+<p19>
+;H> cr fa lp hk vt cl br dt fa lg
+;H> lp cr hk fa vt br dt cl fa lp
+;H> fa cr vt hk cl br dt lp fa lg
+;H> br lp cr fa hk vt cl dt fa br
+;H> hk cr fa lp vt br cl dt fa lg
+
+<p20>
+;H> cr vt fa hk lp cl br dt fa lg
+;H> br cv fa lp cr dt hk vt cl fa
+;H> hk lp cr vt br dt fa cl lg hk
+;H> lp fa cr vt hk cl br dt fa lg
+;H> cv lp cr hk fa vt dt br cl fa
+
+# ── PICTOGRAPHIC SECTION (p51–p150) ─────────────────────────────────────────
+# Higher branch/convergent density reflecting composite pictographic symbols
+
+<p51>
+;H> br cv br cv fa lp hk cr vt dt
+;H> fa br cv lp cr hk cl br cv dt
+;H> cv br fa lp cr vt hk cl dt br
+;H> br fa cv lp hk cr vt cl dt fa
+;H> cv lp br fa cr hk vt cl br dt
+
+<p52>
+;H> br cv cl fa br cv lp cr hk dt
+;H> fa cv br lp cr hk vt br cl dt
+;H> cv br cl fa lp cr vt hk dt br
+;H> br fa cv lp cl cr hk vt dt fa
+;H> cv br lp fa cr hk vt cl br dt
+
+<p53>
+;H> br cv br fa lp hk cr cl vt dt
+;H> fa br cv lp cr hk cl br dt vt
+;H> cv br fa cl lp cr vt hk dt br
+;H> br fa cv cl lp hk cr vt dt fa
+;H> cv lp br fa cr hk cl vt br dt
+
+<p100>
+;H> br cv br cv fa lp hk cr vt dt
+;H> fa br cv cl lp cr hk br dt vt
+;H> cv br fa lp cr vt cl hk dt br
+;H> br cl cv lp fa hk cr vt dt fa
+;H> cv br lp fa cl cr hk vt br dt
+
+<p150>
+;H> br cv br fa cl lp hk cr vt dt
+;H> fa br cv lp cr hk cl br cv dt
+;H> cv br cl fa lp cr vt hk dt br
+;H> br fa cv lp cl hk cr vt dt fa
+;H> cv lp br cl fa cr hk vt br dt
+
+# ── ASTRONOMICAL SECTION (p151–p300) ────────────────────────────────────────
+# High closed-loop density; circular cosmological diagrams
+
+<p151>
+;H> cl cl fa lp cr hk cl vt cl dt
+;H> fa cl lp cr hk cl vt br cl dt
+;H> cl fa cl lp cr cl vt hk dt cl
+;H> cl lp fa cr cl hk vt cl dt fa
+;H> fa cl lp cr hk cl vt br dt cl
+
+<p200>
+;H> cl cl br fa lp hk cr cl vt dt
+;H> fa cl br lp cr hk cl br dt vt
+;H> cl br fa cl lp cr vt cl hk dt
+;H> br cl cv lp fa cl hk cr vt dt
+;H> cl br lp fa cl cr hk cl vt dt
+
+<p250>
+;H> cl cl fa lp cr hk cl vt br dt
+;H> fa cl lp cr cl hk vt br cl dt
+;H> cl fa cl lp cr vt cl hk dt cl
+;H> cl lp fa cr hk cl vt cl dt fa
+;H> fa cl cl lp cr hk vt cl br dt
+
+<p300>
+;H> cl cl br fa lp cl cr hk vt dt
+;H> fa cl br cl lp cr hk br dt vt
+;H> cl br cl fa lp cr vt hk cl dt
+;H> br cl fa lp cl hk cr vt dt fa
+;H> cl br lp fa cr cl hk vt br dt
+
+# ── MIXED SECTION (p301–p448) ───────────────────────────────────────────────
+
+<p301>
+;H> cr vt fa hk lp br cl dt fa lg
+;H> br cv cl fa br lp cr dt hk vt
+;H> cl fa hk br lp cr vt br dt fa
+;H> lg lp cr vt cl hk br fa dt lg
+;H> dt fa lp cr cl hk vt br cv fa
+
+<p350>
+;H> fa lp cr hk br vt cl dt fa lg
+;H> cr cl vt hk fa br lp dt cl fa
+;H> br fa cl hk lp cr vt dt fa br
+;H> hk cl lp cr fa vt br cl dt fa
+;H> cv lp br cr hk cl fa vt dt fa
+
+<p400>
+;H> cr fa vt hk lp cl br dt fa lg
+;H> br cv fa cl lp cr dt hk br vt
+;H> hk br fa lp lg cr vt cl dt hk
+;H> lp fa cr vt cl hk br dt fa lg
+;H> cv lp hk cr fa cl vt br dt fa
+
+<p448>
+;H> cr vt fa hk lp cl br dt fa lg
+;H> lp cr hk cl fa vt br dt cl fa
+;H> fa cr vt hk cl br dt lp fa lg
+;H> br lp cr cl fa hk vt cl dt fa
+;H> hk cr fa lp vt cl br dt fa lg

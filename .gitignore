@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+rohonc_graphs/
+rohonc_graph.png
+rohonc_full_log.txt
+uv.lock

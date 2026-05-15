@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rohonc-engine"
+version = "0.1.0"
+description = "Universal Imscriptive Grammar compilation of the Rohonc Codex"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Unlicense"}
+dependencies = [
+    "networkx",
+    "matplotlib",
+]
+
+[project.scripts]
+rohonc-compile   = "rohonc_engine.compiler:main"
+rohonc-run       = "rohonc_engine.runtime:main"
+rohonc-graph     = "rohonc_engine.callgraph:main"
+rohonc-sections  = "rohonc_engine.sectional:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rohonc_engine"]
