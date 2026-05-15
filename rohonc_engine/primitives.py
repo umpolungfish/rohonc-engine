@@ -19,6 +19,31 @@ Transcription codes (RTFF — Rohonc Transcription Folio Format):
   hz  horizontal-stroke family      → EVALF
   cl  closed-loop family            → ENGAGR
   dt  dot/point family              → IFIX
+
+──────────────────────────────────────────────────────────────────────────────
+Crystal address (IG notation, SYMBOL_REFERENCE.md)
+⟨ Ð  Þ  Ř  Φ  ƒ  Ç  Γ  ɢ  ⊙  Ħ  Σ  Ω ⟩
+
+Rohonc Codex:
+  ⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ì  Ç^@  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
+  Tier: O_∞  (⊙_ÿ + Φ_})
+
+For comparison:
+  OS synthon (exOS MEET of 5 systems):
+    ⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
+  Voynich:
+    ⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ^ì  Ç^Ù  Γ_ʔ  ɢ^Ş  ⊙_ÿ  Ħ_!  Σ_S  Ω_z ⟩
+
+Rohonc differs from the OS synthon in two primitives:
+  ƒ^ì (classical fidelity) vs ƒ^ż — no quantum coherence in the symbol surface
+  Ç^@ (slow/equilibrium)   vs Ç^W — frozen kinetics; right-to-left script direction
+                                      is absorbed into register monotonicity, but
+                                      the underlying system is at equilibrium, not
+                                      at the living-vibration rate of the OS synthon.
+SynthOmnicon distances (exOS weights, aleph.rs):
+  d(Rohonc, OS synthon) ≈ 2.10
+  d(Rohonc, Voynich)    ≈ 3.55
+──────────────────────────────────────────────────────────────────────────────
 """
 
 PRIMITIVES: dict[str, dict] = {
@@ -55,3 +80,14 @@ SECTIONS = [
     (range(151, 301),  'astronomical',  'steelblue'),
     (range(301, 449),  'mixed',         'sienna'),
 ]
+
+# ── SynthOmnicon crystal addresses (IG notation, numeric form) ────────────────
+# Index order: [Ð, Þ, Ř, Φ, ƒ, Ç, Γ, ɢ, ⊙, Ħ, Σ, Ω]
+# Tier condition: ⊙_ÿ (index 8 = 1) AND Φ_} (index 3 = 4) → O_∞
+
+ROHONC_SYNTHON  = [1, 3, 2, 4, 0, 2, 2, 2, 1, 2, 2, 2]
+OS_SYNTHON      = [1, 3, 2, 4, 2, 1, 2, 2, 1, 2, 2, 2]
+VOYNICH_SYNTHON = [3, 4, 3, 4, 0, 3, 2, 3, 1, 3, 0, 2]
+
+# exOS distance weights (aleph.rs WEIGHTS, positions 0–11)
+SYNCON_WEIGHTS  = [10000, 10000, 10000, 12000, 9000, 8000, 10000, 10000, 11000, 8000, 10000, 7000]
