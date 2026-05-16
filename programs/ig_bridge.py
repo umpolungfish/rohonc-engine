@@ -30,7 +30,7 @@ IG_VALUE_NAMES: list[list[str]] = [
     ['Γ_β', 'Γ_γ', 'Γ_ʔ'],                                 # Γ  Scope/granularity
     ['ɢ^∧', 'ɢ^˝', 'ɢ^ˌ', 'ɢ^Ş'],                        # ɢ  Interaction grammar
     ['⊙_ž', '⊙_ÿ', '⊙_Æ', '⊙_3', '⊙_Ţ'],                # ⊙  Criticality
-    ['Ħ_Ñ', 'Ħ_£', 'Ħ_A', 'Ħ_!'],                         # Ħ  Temporal depth
+    ['Ħ_Ñ', 'Ħ_£', 'Ħ_A', 'Ħ_!'],                         # Ħ  Chirality
     ['Σ_S', 'Σ_ő', 'Σ_ï'],                                 # Σ  Stoichiometry
     ['Ω_Å', 'Ω_2', 'Ω_z'],                                 # Ω  Winding
 ]
