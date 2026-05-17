@@ -103,6 +103,14 @@ Both compile to SELF_SUSTAINING_BOOTSTRAP_COMPLETE at entropy delta = 0.00000000
 
 ---
 
+## Visualizations
+
+**Full-corpus animated call-graph** — all 33 Rohonc pages, cross-page back-edges. Phase 1: pages revealed in manuscript order. Phase 2: Gaussian pulse traverses the graph.
+
+![Corpus CFG](docs/animated_cfg_corpus_rohonc.gif)
+
+---
+
 ## License
 
 Unlicense — public domain. No conditions, no attribution required.
