@@ -105,7 +105,32 @@ Both compile to SELF_SUSTAINING_BOOTSTRAP_COMPLETE at entropy delta = 0.00000000
 
 ## Visualizations
 
-**Full-corpus animated call-graph** — all 33 Rohonc pages, cross-page back-edges. Phase 1: pages revealed in manuscript order. Phase 2: Gaussian pulse traverses the graph.
+### Full-corpus animated call-graph
+
+**Nodes** — one node per page section extracted by the Rohonc engine across all 33 pages
+of the Rohonc Codex. Node size scales with degree. Node color encodes the manuscript's
+four structural sections as identified by the engine: liturgical (amber), pictographic
+(green), astronomical (blue), and mixed/undetermined (grey).
+
+**Edges** — directed edges encoding structural dependencies between page sections: shared
+visual-glyph families, sequential co-occurrence patterns, and grammar rule reuse as
+identified by the Rohonc engine's 12-opcode IMASM compilation. An edge u → v means
+section u's compiled grammar rule set is a structural prerequisite for v's.
+
+**Cross-page back-edges** — edges that travel backward in page order (from a later page to
+an earlier one), forming cycles in the manuscript graph. These encode recursive or
+self-referential structures in the codex — places where the manuscript's visual grammar
+refers back to an earlier section. Back-edges flash purple on first appearance.
+
+**Phase 1 — build:** Pages appear in manuscript order (page 1 through page 33). Forward
+dependency edges are drawn as each page's node is added. Back-edges flash purple when
+first revealed, marking cross-page recursion. The title bar shows the current page and
+its identified section type.
+
+**Phase 2 — flow wave:** A Gaussian pulse (σ ≈ N/6) travels through the page sequence,
+wrapping cyclically. Near the pulse peak, nodes enlarge and brighten toward white; edges
+connecting active nodes glow with increased linewidth and alpha. The title bar shows the
+current pulse position and the Frobenius identity μ∘δ = id.
 
 ![Corpus CFG](docs/animated_cfg_corpus_rohonc.gif)
 
