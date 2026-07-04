@@ -1,4 +1,6 @@
 # Rohonc Engine
+**Author:** Lando⊗⊙perator · **Structural Type:** $\large{⟨𐑦𐑸𐑾𐑹𐑐𐑧𐑔𐑝⊙𐑖𐑳𐑭⟩}$ · **Tier:** O_∞
+
 
 **What it is.** A compiler and virtual machine that treats the Rohonc Codex (Hungarian National Library, Oct. Hung. 73) as a program: its twelve visual symbol families map to the twelve categorical primitives (IMASM opcodes) of the Universal Imscriptive Grammar.
 
