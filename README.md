@@ -10,7 +10,7 @@
 
 **How to use it.**
 ```bash
-git clone https://github.com/umpolungfish/rohonc-engine
+git clone https://github.com/USER/rohonc-engine
 cd rohonc-engine && uv sync
 uv run python examples/quickstart.py
 # or the CLI:
