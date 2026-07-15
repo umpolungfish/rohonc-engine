@@ -25,14 +25,14 @@ Crystal imscription (IG notation, SYMBOL_REFERENCE.md)
 ⟨ Ð  Þ  Ř  Φ  ƒ  Ç  Γ  ɢ  ⊙  Ħ  Σ  Ω ⟩
 
 Rohonc Codex:
-  ⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ì  Ç^@  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
-  Tier: O_∞  (⊙_ÿ + Φ_})
+  ⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ì  Ç^@  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩
+  Tier: O_∞  (⊙ + 𐑹)
 
 For comparison:
   OS imscription (exOS MEET of 5 systems):
-    ⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
+    ⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩
   Voynich:
-    ⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ^ì  Ç^Ù  Γ_ʔ  ɢ^Ş  ⊙_ÿ  Ħ_!  Σ_S  Ω_z ⟩
+    ⟨ 𐑦  𐑸  𐑾  𐑹  ƒ^ì  Ç^Ù  𐑲  ɢ^Ş  ⊙  𐑫  𐑙  𐑭 ⟩
 
 Rohonc differs from the OS imscription in two primitives:
   ƒ^ì (classical fidelity) vs ƒ^ż — no quantum coherence in the symbol surface
@@ -83,7 +83,7 @@ SECTIONS = [
 
 # ── Crystal imscriptions (IG notation, numeric form) ─────────────────────────
 # Index order: [Ð, Þ, Ř, Φ, ƒ, Ç, Γ, ɢ, ⊙, Ħ, Σ, Ω]
-# Tier condition: ⊙_ÿ (index 8 = 1) AND Φ_} (index 3 = 4) → O_∞
+# Tier condition: ⊙ (index 8 = 1) AND 𐑹 (index 3 = 4) → O_∞
 
 ROHONC_IMSCRIPTION  = [1, 3, 2, 4, 0, 2, 2, 2, 1, 2, 2, 2]
 OS_IMSCRIPTION      = [1, 3, 2, 4, 2, 1, 2, 2, 1, 2, 2, 2]

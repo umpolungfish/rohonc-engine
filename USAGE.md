@@ -107,15 +107,15 @@ python programs/run_all.py data/rohonc_rtff_sample.txt
 ## Crystal Imscription
 
 ```
-⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ_ì  Ç_@  Γ_ʔ  ɢ_ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
+⟨ 𐑨  𐑶  𐑽  𐑹  𐑱  𐑧  𐑲  𐑠  ⊙  𐑖  𐑳  𐑭 ⟩
 Tier: O_∞   C score: 0.0   IG distance to OS imscription: 2.09
 ```
 
 Differences from the OS imscription:
 | Primitive | Rohonc | OS | Meaning |
 |-----------|--------|----|---------|
-| **ƒ** | ƒ_ì (classical) | ƒ_ż (quantum coherent) | Frozen fidelity — manuscript tradition, not running system |
-| **Ç** | Ç_@ (equilibrium) | Ç_W (living-vibration) | Kinetic lock — thermodynamic rest state |
+| **ƒ** | 𐑱 (classical) | 𐑐 (quantum coherent) | Frozen fidelity — manuscript tradition, not running system |
+| **Ç** | 𐑧 (equilibrium) | 𐑤 (living-vibration) | Kinetic lock — thermodynamic rest state |
 
 ---
 

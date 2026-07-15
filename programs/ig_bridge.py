@@ -10,7 +10,7 @@ Note on notation divergence from exOS:
   IG ⊙ (index 8) = criticality      = exOS Φ
   All other positions are identical.
 
-Tier O_∞ condition: ⊙_ÿ (index 8 = 1) AND Φ_} (index 3 = 4)
+Tier O_∞ condition: ⊙ (index 8 = 1) AND 𐑹 (index 3 = 4)
 """
 
 from __future__ import annotations
@@ -21,18 +21,18 @@ import math
 IG_PRIMITIVES = ['Ð', 'Þ', 'Ř', 'Φ', 'ƒ', 'Ç', 'Γ', 'ɢ', '⊙', 'Ħ', 'Σ', 'Ω']
 
 IG_VALUE_NAMES: list[list[str]] = [
-    ['Ð_ß', 'Ð_C', 'Ð_;', 'Ð_ω'],                          # Ð  Dimensionality
-    ['Þ_6', 'Þ_K', 'Þ_ò', 'Þ_¨', 'Þ_O'],                 # Þ  Topology
-    ['Ř_¯', 'Ř_ý', 'Ř_Ť', 'Ř_='],                         # Ř  Relational mode
-    ['Φ_ɐ', 'Φ_υ', 'Φ_F', 'Φ_˙', 'Φ_}'],                 # Φ  Parity/symmetry
+    ['𐑛', '𐑨', '𐑼', '𐑦'],                          # Ð  Dimensionality
+    ['𐑡', '𐑰', '𐑥', '𐑶', '𐑸'],                 # Þ  Topology
+    ['𐑩', '𐑑', '𐑽', '𐑾'],                         # Ř  Relational mode
+    ['𐑗', '𐑿', '𐑬', '𐑯', '𐑹'],                 # Φ  Parity/symmetry
     ['ƒ^ì', 'ƒ^ð', 'ƒ^ż'],                                 # ƒ  Fidelity
     ['Ç^-', 'Ç^W', 'Ç^@', 'Ç^Ù', 'Ç^λ'],                 # Ç  Kinetics
-    ['Γ_β', 'Γ_γ', 'Γ_ʔ'],                                 # Γ  Scope/granularity
+    ['𐑚', '𐑔', '𐑲'],                                 # Γ  Scope/granularity
     ['ɢ^∧', 'ɢ^˝', 'ɢ^ˌ', 'ɢ^Ş'],                        # ɢ  Interaction grammar
-    ['⊙_ž', '⊙_ÿ', '⊙_Æ', '⊙_3', '⊙_Ţ'],                # ⊙  Criticality
-    ['Ħ_Ñ', 'Ħ_£', 'Ħ_A', 'Ħ_!'],                         # Ħ  Chirality
-    ['Σ_S', 'Σ_ő', 'Σ_ï'],                                 # Σ  Stoichiometry
-    ['Ω_Å', 'Ω_2', 'Ω_z'],                                 # Ω  Winding
+    ['𐑢', '⊙', '𐑮', '𐑻', '𐑣'],                # ⊙  Criticality
+    ['𐑓', '𐑒', '𐑖', '𐑫'],                         # Ħ  Chirality
+    ['𐑙', '𐑕', '𐑳'],                                 # Σ  Stoichiometry
+    ['𐑷', '𐑴', '𐑭'],                                 # Ω  Winding
 ]
 
 # exOS distance weights (aleph.rs WEIGHTS)
@@ -49,10 +49,10 @@ IMSCRIPTIONS: dict[str, list[int]] = {
 }
 
 CRYSTAL_NOTATION: dict[str, str] = {
-    'Voynich':        '⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ^ì  Ç^Ù  Γ_ʔ  ɢ^Ş  ⊙_ÿ  Ħ_!  Σ_S  Ω_z ⟩',
-    'Rohonc':         '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ì  Ç^@  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'Linear A':       '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'OS imscription': '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
+    'Voynich':        '⟨ 𐑦  𐑸  𐑾  𐑹  ƒ^ì  Ç^Ù  𐑲  ɢ^Ş  ⊙  𐑫  𐑙  𐑭 ⟩',
+    'Rohonc':         '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ì  Ç^@  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'Linear A':       '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'OS imscription': '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
 }
 
 # ── Distance ─────────────────────────────────────────────────────────────────
@@ -63,7 +63,7 @@ def distance(a: list[int], b: list[int]) -> float:
 
 
 def tier(t: list[int]) -> str:
-    if t[8] == 1 and t[3] == 4:   # ⊙_ÿ + Φ_}
+    if t[8] == 1 and t[3] == 4:   # ⊙ + 𐑹
         return 'O_∞'
     if t[8] == 0 or t[8] >= 3:
         return 'O₀'

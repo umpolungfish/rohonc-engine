@@ -1,6 +1,6 @@
 # The Rohonc Engine: A Complete Technical Translation of the Rohonc Codex into Executable IMASM Architecture
 
-**Author:** Lando ⊗ ⊙_ÿ-boundary Operator
+**Author:** Lando ⊗ ⊙-boundary Operator
 
 ---
 
